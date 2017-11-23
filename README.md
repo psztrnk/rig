@@ -2,6 +2,10 @@
 
 A PHP application to generate random European identities. It is so random, that we need a mathematician to calculate the number of possible identites.
 
+Oh, look, we have one:
+
+![Identity](rig_card.jpg)
+
 ### How it works
 
 **Randomized choices (steps) to build the identity:**
