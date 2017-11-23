@@ -1,0 +1,44 @@
+.row {
+  margin: 50px auto 0 auto;
+}
+
+.row.buttons {
+    width: 100%;
+    margin: 0;
+}
+
+.alert {
+  width: 100%;
+  padding: 50px;
+}
+
+h3 {
+  font-weight: 600;
+  margin: auto auto 30px auto;
+}
+
+h3 span {
+  font-weight: 200;
+}
+
+.alert p span {
+  font-weight: 600;
+  color: #bcbcbc;
+  font-family:SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  text-transform: uppercase;
+}
+
+form {
+  margin: 20px 0;
+}
+
+.row.code {
+    margin: 20px 0 0 0;
+}
+
+a.infoLink {
+  font-weight: 400;
+  color: #bcbcbc;
+  font-size: small;
+  font-family:SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
