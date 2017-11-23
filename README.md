@@ -16,7 +16,7 @@ Also, we have a tattoist\*\*:
 
 **Randomized choices (steps) to build the identity:**
 
-1. pick: nationality (34 European nationality at the moment)
+1. pick: nationality (34 European nationalities at the moment)
 2. pick: given name (~20 possibilities for each nationality)
 3. pick: surname (~20 possibilities for each nationality)
 4. pick: city of residence (~10 possibilities for each nationality)
