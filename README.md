@@ -2,9 +2,15 @@
 
 A PHP application to generate random European identities. It is so random, that we need a mathematician to calculate the number of possible identites.
 
-Oh, look, we have one:
+Oh, look, we have one\*:
 
 ![Identity](rig_card.jpg)
+
+Also, we have a tattoist\*\*:
+
+![Screenshot](rig_screen.jpg)
+
+<sup>\* and \*\*: I know, this was unnecessary information, but it was a nice way to introduce the screenshots. Sorry.</sup>
 
 ### How it works
 
