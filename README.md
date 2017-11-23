@@ -1,6 +1,6 @@
 # RIG: Random Identity Generator
 
-A PHP application to generate random European identities. It is so random, that we need a mathematician to calculate the number of possible identites.
+A PHP application to generate random European identities. It is so random, that we need a mathematician to calculate the number of possible identities.
 
 Oh, look, we have one\*:
 
