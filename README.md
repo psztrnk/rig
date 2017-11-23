@@ -46,6 +46,10 @@ Also, we have a tattoist\*\*:
 * Identity self-destructs (the page reloads) after a minute (again, just for fun).
 * Button to generate a new identity instantly.
 
+### Demo
+
+[Here you go](https://paszternak.me/rig/).
+
 ### Third-party stuff
 
 * For password generation, I used [this code](https://stackoverflow.com/a/31107425) (license: CC By-SA 3.0).
