@@ -538,7 +538,7 @@ function constructIdentity() {
   echo $hobbyWording . $hobbyOne . $hobbySeparator . $hobbyTwo . '.'; // insert hobbies (if any)
   echo '</p>';
   echo '<p class="internet"><span>#4 Online Presence</span><br />';
-  echo 'On the Internet, you ususally go by the username <code>' . $userName . '</code>. '; // insert username
+  echo 'On the Internet, you usually go by the username <code>' . $userName . '</code>. '; // insert username
   echo 'Here\'s a nice password for you to use: <code>' . random_str(20);
   echo '</code></p>';
 }
