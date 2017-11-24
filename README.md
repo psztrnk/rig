@@ -33,7 +33,7 @@ Also, we have a tattoist\*\*:
 9. pick: sports (19 sports included, plus a possibility that identity doesn't do any sports)
 10. pick: frequency of doing sports (5 possibilities)
     * this step is ignored if the identity doesn't do any sports
-11. pick: companion when doing sports (3 possibilities)
+11. pick: companion when doing sports (4 possibilities)
     * this step is ignored if the identity doesn't do any sports
 12. pick: number of hobbies (a random number between 0 and 2)
 13. pick: hobbies (33 possibilities included)
