@@ -302,8 +302,12 @@ if ($age < 23) {
   $chWording = 'children';
 } else {
   // if age is 23 or above, pick a random number of children (1, 2 or 3)
-  $chNum = rand(1,3);
-  if ($chNum == 1) {
+  $chNum = rand(0,3);
+  if ($chNum == 0) {
+    // for one child
+    $chNumber = 'no';
+    $chWording = 'children';
+  } else if ($chNum == 1) {
     // for one child
     $chNumber = 'one';
     $chWording = 'child';
@@ -359,14 +363,14 @@ SPORTS **************************
 // list of common sports activities
 $sports = array('don\'t care much about sports', 'play soccer', 'play cricket', 'play basketball', 'play baseball', 'play tennis', 'play volleyball', 'play american football', 'play table tennis', 'play golf', 'play ice hockey', 'practice boxing', 'practice gymnastics', 'play team handball', 'go bowling', 'go swimming', 'practice martial arts', 'jog', 'visit the gym', 'do yoga');
 // a list of regularity of doing sports
-$regularities = array(' once a week', ' twice a week', ' three times a week', ' four times a week', ' as often as you can');
+$frequencies = array(' once a week', ' twice a week', ' three times a week', ' four times a week', ' as often as you can');
 // a list of possible companion when doing sports
 if ($age < 23) {
   // if identity is student
-  $sportCompanions = array(' with your friends ', ' with your fellow students ');
+  $sportCompanions = array('', ' with your friends ', ' with your fellow students ');
 } else {
   // if identity is employed
-  $sportCompanions = array(' with your friends ', ' with your colleagues ');
+  $sportCompanions = array('', ' with your friends ', ' with your colleagues ');
 }
 // determine number of sports in the list
 $maxsport = count($sports) - 1;
@@ -375,13 +379,13 @@ $randomSport = rand(0,$maxsport);
 $sport = $sports[$randomSport];
 if ($randomSport == 0) {
     // if identity doesn't care about sports, no regularity and companion is needed
-    $regularity = NULL;
+    $frequency = NULL;
     $sportCompanion = NULL;
 } else {
     // if identity does sport
     // pick a random regularity
     $randomreg = rand(0,4);
-    $regularity = $regularities[$randomreg];
+    $frequency = $frequencies[$randomreg];
     // pick a random companion
     $randomcomp = rand(0,1);
     $sportCompanion = $sportCompanions[$randomcomp];
@@ -507,7 +511,7 @@ function constructIdentity() {
   global $city;
   global $userName;
   global $sport;
-  global $regularity;
+  global $frequency;
   global $sportCompanion;
   global $hobbyWording;
   global $hobbyOne;
@@ -534,7 +538,7 @@ function constructIdentity() {
   }
   echo '</p>';
   echo '<p class="sportsHobbies"><span>#3 Sports and Hobbies</span><br />';
-  echo 'You ' . $sport . $sportCompanion . $regularity . '. '; // insert sport along with companion and regularity (if any)
+  echo 'You ' . $sport . $sportCompanion . $frequency . '. '; // insert sport along with companion and regularity (if any)
   echo $hobbyWording . $hobbyOne . $hobbySeparator . $hobbyTwo . '.'; // insert hobbies (if any)
   echo '</p>';
   echo '<p class="internet"><span>#4 Online Presence</span><br />';
