@@ -1,4 +1,3 @@
 <?php
-  $mainpage = 'index.php';
-  header('Location: '.$mainpage);
+  header('Location: index.php');
 ?>
