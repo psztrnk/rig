@@ -48,7 +48,7 @@ Also, we have a tattoist\*\*:
 
 ### Demo
 
-[Here you go](https://paszternak.me/rig/). Also, you can read more about the [mindstorm behind the creation of RIG](https://paszternak.me/blog/meet-rig).
+[Here you go](https://paszternak.me/_misc/rig/).
 
 ### Third-party stuff
 
